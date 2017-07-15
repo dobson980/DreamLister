@@ -1,0 +1,2 @@
+# DreamLister
+Implementation of CoredData
