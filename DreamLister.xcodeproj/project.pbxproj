@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35142B391F1FC3BC0054B59C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35142B381F1FC3BB0054B59C /* CustomTextField.swift */; };
+		35142B3B1F1FC7960054B59C /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35142B3A1F1FC7960054B59C /* ItemDetailsViewController.swift */; };
 		35F806D41F1A62EC009979AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F806D31F1A62EC009979AA /* AppDelegate.swift */; };
 		35F806D61F1A62EC009979AA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F806D51F1A62EC009979AA /* MainViewController.swift */; };
 		35F806D91F1A62EC009979AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F806D71F1A62EC009979AA /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35142B381F1FC3BB0054B59C /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTextField.swift; path = "../../../../../../Downloads/DreamLister Assets/CustomTextField.swift"; sourceTree = "<group>"; };
+		35142B3A1F1FC7960054B59C /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
 		35F806D01F1A62EC009979AA /* DreamLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F806D31F1A62EC009979AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35F806D51F1A62EC009979AA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35142B351F1E9C1D0054B59C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35F806D51F1A62EC009979AA /* MainViewController.swift */,
+				35142B3A1F1FC7960054B59C /* ItemDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		35F806C71F1A62EC009979AA = {
 			isa = PBXGroup;
 			children = (
@@ -76,10 +89,10 @@
 		35F806D21F1A62EC009979AA /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				35142B351F1E9C1D0054B59C /* Controller */,
 				35F806FA1F1A7662009979AA /* View */,
 				35F806F81F1A68B4009979AA /* Model */,
 				35F806D31F1A62EC009979AA /* AppDelegate.swift */,
-				35F806D51F1A62EC009979AA /* MainViewController.swift */,
 				35F806D71F1A62EC009979AA /* Main.storyboard */,
 				35F806DD1F1A62EC009979AA /* Assets.xcassets */,
 				35F806DF1F1A62EC009979AA /* LaunchScreen.storyboard */,
@@ -117,6 +130,7 @@
 			children = (
 				35F806FB1F1A767D009979AA /* MaterialView.swift */,
 				35F806FD1F1A79A1009979AA /* ItemCell.swift */,
+				35142B381F1FC3BB0054B59C /* CustomTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,6 +208,7 @@
 			files = (
 				35F806FE1F1A79A1009979AA /* ItemCell.swift in Sources */,
 				35F806F61F1A68A0009979AA /* Item+CoreDataClass.swift in Sources */,
+				35142B3B1F1FC7960054B59C /* ItemDetailsViewController.swift in Sources */,
 				35F806F21F1A68A0009979AA /* ItemType+CoreDataClass.swift in Sources */,
 				35F806D61F1A62EC009979AA /* MainViewController.swift in Sources */,
 				35F806FC1F1A767D009979AA /* MaterialView.swift in Sources */,
@@ -205,6 +220,7 @@
 				35F806F31F1A68A0009979AA /* ItemType+CoreDataProperties.swift in Sources */,
 				35F806F71F1A68A0009979AA /* Item+CoreDataProperties.swift in Sources */,
 				35F806F01F1A68A0009979AA /* Image+CoreDataClass.swift in Sources */,
+				35142B391F1FC3BC0054B59C /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
